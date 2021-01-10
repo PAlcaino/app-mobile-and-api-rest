@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api-rest-debts", "api-rest-debts\api-rest-debts.csproj", "{5C4335ED-8438-4AB7-AD1E-6D16E0D7202A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C4335ED-8438-4AB7-AD1E-6D16E0D7202A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C4335ED-8438-4AB7-AD1E-6D16E0D7202A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C4335ED-8438-4AB7-AD1E-6D16E0D7202A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C4335ED-8438-4AB7-AD1E-6D16E0D7202A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F2BE2B6-F3CD-4F1A-962B-354952A4F79F}
+	EndGlobalSection
+EndGlobal
