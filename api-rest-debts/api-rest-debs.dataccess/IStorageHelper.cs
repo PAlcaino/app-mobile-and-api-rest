@@ -22,5 +22,11 @@ namespace apirestdebs.dataccess
         /// </summary>
         /// <returns>a list of entities</returns>
         Task<IEnumerable<DebtEntity>> GetItemsAsync();
+
+        /// <summary>
+        /// Creates a debt entity in the db
+        /// </summary>
+        /// <returns></returns>
+        Task<bool> CreateDebtAsync(DebtEntity entity);
     }
 }

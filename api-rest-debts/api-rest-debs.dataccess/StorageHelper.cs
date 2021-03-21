@@ -34,7 +34,7 @@ namespace apirestdebs.dataccess
                 new DebtEntity
                 {
                     Id = new Guid("2e27870c-8030-43a5-89b9-4774f4bea075"),
-                    IdUser = Guid.NewGuid(),
+                    UserId = Guid.NewGuid(),
                     Amount = 2000,
                     CreatedAt = DateTimeOffset.Now.AddMonths(-1),
                     ExpiredAt = DateTimeOffset.Now,
@@ -43,13 +43,18 @@ namespace apirestdebs.dataccess
                 new DebtEntity
                 {
                     Id = Guid.NewGuid(),
-                    IdUser = Guid.NewGuid(),
+                    UserId = Guid.NewGuid(),
                     Amount = 2000,
                     CreatedAt = DateTimeOffset.Now.AddMonths(-1),
                     ExpiredAt = DateTimeOffset.Now,
                     Dues = 12
                 }
             };
+        }
+
+        public async Task<bool> CreateDebtAsync(DebtEntity entity)
+        {
+            return true;
         }
     }
 }

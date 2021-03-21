@@ -1,10 +1,8 @@
 ﻿using System;
-namespace apirestdebs.dataccess.Entities
+
+namespace debts_app.Models
 {
-    /// <summary>
-    /// Entity for Debts
-    /// </summary>
-    public class DebtEntity
+    public class Debts
     {
         /// <summary>
         /// Gets or sets the debts identifier
